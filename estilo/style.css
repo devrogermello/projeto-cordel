@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "Passion One", sans-serif;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: "Sriracha", cursive;
+    font-size: 3.5vw;
+}
+
+section.simples {
+    background-color: white;
+    color: black;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.girassol {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p.girassol-p {
+    background-color: rgba(4, 0, 0, 0.5);
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+section.carta {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
+}
+
+p.carta-p {
+    background-color: rgba(4, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
